@@ -34,3 +34,5 @@ The network features two layers per block, five scales, and batch normalization 
 Final predicted labels are obtained by assigning each pixel to the class with the highest probability. 
 
 The final model weights for the model used in the paper are available in the 'ModelWeights' folder.
+
+The model training/inferecne can be run using the 'Pre-Clinical_CMR_Segmentation.ipynb' script 
