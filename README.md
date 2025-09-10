@@ -32,3 +32,5 @@ In this study we developed an open-source DL segmentation model based on the UNe
 The UNet3+ model consists of an advanced encoder-decoder network with deep supervision, designed to enhance multi-scale feature integration. 
 The network features two layers per block, five scales, and batch normalization between layers. 
 Final predicted labels are obtained by assigning each pixel to the class with the highest probability. 
+
+The final model weights for the model used in the paper are available in the 'ModelWeights' folder.
