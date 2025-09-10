@@ -8,7 +8,7 @@
 
 In this paper (a draft of which can be found in the 'Paper' folder here), we present the first publicly-available pre-clinical cardiac MRI dataset, along with an open-source DL segmentation model and a web-based interface for easy deployment (available at https://huggingface.co/spaces/mrphys/Pre-clinical_DL_segmentation).
 
-**This GitHub repository contains the dataset and open-sourse model.  **
+**This GitHub repository contains the dataset and open-sourse model**
 
 This dataset comprises of complete cine short-axis cardiac MRI images from 130 mice with diverse phenotypes.
 It also contains expert manual segmentations of left ventricular (LV) blood pool and myocardium at end-diastole, end-systole, as well as additional timeframes with artefacts to improve robustness.
