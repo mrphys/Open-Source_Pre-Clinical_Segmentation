@@ -14,7 +14,7 @@ This dataset comprises of complete cine short-axis cardiac MRI images from 130 m
 It also contains expert manual segmentations of left ventricular (LV) blood pool and myocardium at end-diastole, end-systole, as well as additional timeframes with artefacts to improve robustness.
 
 Using this resource, we developed an open-source DL segmentation model based on the UNet3+ architecture, with the training and inference code below.
-These scripts are provided  an easy-to-follow tutorial
+These scripts are provided  an easy-to-follow tutorial.
 
 # --------------------------------------------------------------
 ## DATASET
@@ -30,9 +30,9 @@ A third parameter is given in the HDF5 file which identifies the cardiac timefra
 
 In this study we developed an open-source DL segmentation model based on the UNet3+ architecture. 
 The UNet3+ model consists of an advanced encoder-decoder network with deep supervision, designed to enhance multi-scale feature integration. 
-The network features two layers per block, five scales, and batch normalization between layers. 
+The network features two layers per block, five scales, and batch normalisation between layers. 
 Final predicted labels are obtained by assigning each pixel to the class with the highest probability. 
 
 The final model weights for the model used in the paper are available in the 'ModelWeights' folder.
 
-The model training/inference can be run using the 'Pre-Clinical_CMR_Segmentation.ipynb' script 
+The model training/inference can be run using the 'Pre-Clinical_CMR_Segmentation.ipynb' script.
